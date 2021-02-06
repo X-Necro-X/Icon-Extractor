@@ -14,4 +14,4 @@ try:
     list(map(lambda x: icon.pixmap(x[1]).toImage().save(save+'/'+str(x[0])+'.ico', quality=100), list(enumerate(sizes))))
     print('Done!')
 except:
-    print('Error!')
+    print('Error')
